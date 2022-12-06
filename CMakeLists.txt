@@ -1,5 +1,5 @@
 PROJECT(cook-cpp-external)
-CMAKE_MINIMUM_REQUIRED(VERSION 3.16)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
 
 include(external/fmt/load.cmake)
 include(external/boost/load.cmake)
