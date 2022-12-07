@@ -5,6 +5,6 @@ include(external/fmt/load.cmake)
 include(external/boost/load.cmake)
 
 add_executable(main src/main.cpp)
-target_link_libraries(main PRIVATE fmt::fmt
-        #        boost::system
-        )
+target_link_libraries(main PRIVATE
+        fmt::fmt
+        Boost::filesystem)
